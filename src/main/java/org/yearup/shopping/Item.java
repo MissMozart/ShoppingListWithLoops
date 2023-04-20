@@ -30,6 +30,10 @@ public class Item {
         this.inStock = inStock;
     }
 
+    public void setInStock(boolean inStock) {
+        this.inStock = inStock;
+    }
+
     @Override
     public String toString() {
         return "Item{" +
